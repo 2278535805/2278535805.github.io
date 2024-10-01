@@ -1184,7 +1184,7 @@ function loop() {
 		ctx.globalAlpha = 0.25;
 		ctx.textAlign = 'center';
 		ctx.textBaseline = 'middle';
-		ctx.fillText(`Phigros Simulator [Next] Public - ${_i[1]} - by lchzh3473 / kev1nweng / scar922${isAutoStr}`, canvas.width / 2 - lineScale * 0, canvas.height - lineScale * 0.2);
+		//ctx.fillText(`Phigros Simulator [Next] Public - ${_i[1]} - by lchzh3473 / kev1nweng / scar922${isAutoStr}`, canvas.width / 2 - lineScale * 0, canvas.height - lineScale * 0.2);
 	stopDrawing = requestAnimationFrame(loop); //回调更新动画
 }
 

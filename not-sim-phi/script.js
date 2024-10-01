@@ -1333,6 +1333,7 @@ function loopCanvas() { //尽量不要在这里出现app
 	ctxos.font = `${lineScale * 0.95}px ${fonts.choice},Noto Sans SC`;
 	ctxos.textAlign = 'right';
 	ctxos.fillText(stat.scoreStr, canvasos.width - lineScale * 0.65, lineScale * 1.375);
+	ctxos.drawImage(res['Pause'], lineScale * 0.6, lineScale * 0.7, lineScale * 0.63, lineScale * 0.7);
 	if (showAcc.checked) {
 		ctxos.font = `${lineScale * 0.66}px ${fonts.choice},Noto Sans SC`;
 		ctxos.fillText(stat.accStr, canvasos.width - lineScale * 0.65, lineScale * 2.05);
