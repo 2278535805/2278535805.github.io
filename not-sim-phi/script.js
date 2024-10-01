@@ -1821,7 +1821,7 @@ function imgPainter(img, color, limit = 512) {
 	const canvas = createCanvas(img.width, img.height);
 	const ctx = canvas.getContext('2d', { willReadFrequently: true }); //warning
 	ctx.drawImage(img, 0, 0);
-	/*
+	
  	for (let dy = 0; dy < img.height; dy += limit) {
 		for (let dx = 0; dx < img.width; dx += limit) {
 			const imgData = ctx.getImageData(dx, dy, limit, limit);
@@ -1834,7 +1834,7 @@ function imgPainter(img, color, limit = 512) {
 			ctx.putImageData(imgData, dx, dy);
 		}
 	}
- 	*/
+ 	
 	return createImageBitmap(canvas);
 }
 /**
