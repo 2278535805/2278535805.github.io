@@ -953,6 +953,7 @@ window.addEventListener('load', async function() {
 		JudgeLine: 'src/JudgeLine.png',
 		ProgressBar: 'src/ProgressBar.png',
 		SongsNameBar: 'src/SongsNameBar.png',
+		Pause: 'src/PauseNew.png',
 		HitFXRaw: 'src/HitEffectRaw.png',
 		Tap: 'src/Tap.png',
 		Tap2: 'src/Tap2.png',
